@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class cont {
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public String sayhi(){
         return"Hello, I am SAKIF Nabil from morocco. I am a software engineer";
     }
